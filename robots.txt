@@ -1,0 +1,32 @@
+User-agent: *
+Allow: https://sdssecur.com
+Allow: https://sdssecur.com/index.html
+
+User-agent: Googlebot
+Allow: .js
+Allow: .css
+Allow: /index.html
+Allow: https://sdssecur.com
+Allow: https://sdssecur.com/index.html
+
+User-agent: Robots
+Allow: .js
+Allow: .css
+Allow: /index.html
+Allow: https://sdssecur.com
+Allow: https://sdssecur.com/index.html
+
+
+Sitemap: https://sdssecur.com/sitemap.xml
+
+Allow: SEO-PowerSuite-bot
+Allow: Googlebot
+
+User-agent: EtaoSpider
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
